@@ -1,6 +1,6 @@
 [jobs.test]
 
-image = { source = "Dockerfile", path = "." }
+image = { source = "dockerfile", path = "." }
 
 run = [
   "./test $input"
