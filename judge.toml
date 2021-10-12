@@ -3,7 +3,7 @@
 image = { source = "dockerfile", path = "." }
 
 run = [
-  "./lexer $input"
+  "./lexer < $input"
 ]
 
 
